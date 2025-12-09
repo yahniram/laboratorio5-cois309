@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Publicación de Página Web - COIS 309</title>
 
-
     <style>
     body {
         font-family: Calibri, Arial, sans-serif;
@@ -181,16 +180,17 @@
             flex-direction: column;
         }
     }
-</style>
+    </style>
 
 </head>
 <body>
 
 <header>
-   <h1>Proyecto de Publicación de Página Web</h1>
+    <h1>Proyecto de Publicación de Página Web</h1>
 
     <!-- Imagen parte superior derecha -->
-    <img src="img/imagen1.jpg" alt="Imagen superior derecha" class="top-right-img">
+    <!-- Ruta corregida: la imagen está en seccion1/img/imagen1.jpg -->
+    <img src="seccion1/img/imagen1.jpg" alt="Imagen superior derecha" class="top-right-img">
 </header>
 
 <section>
@@ -246,12 +246,13 @@
 
         <div>
             <h3>Video automático</h3>
-            <video src="videos/video-auto.mp4" autoplay muted loop controls></video>
+            <!-- Ajusta la ruta según la carpeta real donde subiste los videos -->
+            <video src="seccion3/videos/video-auto.mp4" autoplay muted loop controls></video>
         </div>
 
         <div>
             <h3>Video manual</h3>
-            <video src="videos/video-manual.mp4" controls></video>
+            <video src="seccion3/videos/video-manual.mp4" controls></video>
         </div>
 
     </div>
@@ -260,8 +261,8 @@
 <section>
     <h2>Navegación</h2>
     <p>
-        <a href="../seccion2/index.html">Ir a la Sección 2</a>
-        
+        <!-- Enlace corregido: seccion2 está al mismo nivel que index.html -->
+        <a href="seccion2/index.html">Ir a la Sección 2</a>
     </p>
 </section>
 
